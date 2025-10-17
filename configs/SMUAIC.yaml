@@ -2,13 +2,13 @@ project_name: SMUAIC25
 exp_name: OriPimVit
 use_wandb: False
 wandb_entity: professional_team
-train_root: /root/autodl-tmp/AICtrain/train5000
+train_root: /root/autodl-tmp/AICtrain/train5000/train
 val_root: ~
 val_split: 0.1
-test_root:  /root/autodl-tmp/AICtest/test5000
+test_root:  /root/autodl-tmp/AICtest/test5000/test_A
 data_size: 384
 num_workers: 2
-batch_size: 64
+batch_size: 16
 model_name: vit
 pretrained: ~
 optimizer: SGD
@@ -34,4 +34,4 @@ lambda_c: 1.0
 update_freq: 4
 log_freq: 100
 eval_freq: 1
-save_dir: /root/autodl-tmp/FGVC-PIM-master/records/
+save_dir: /root/autodl-tmp/AIC-VITPIM/records/
