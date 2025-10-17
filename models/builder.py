@@ -149,7 +149,7 @@ def build_efficientnet(pretrained: bool = True,
 
 
 
-def build_vit16(pretrained: str = "./vit_base_patch16_224_miil_21k.pth",
+def build_vit16(pretrained: str = "",
                 return_nodes: Union[dict, None] = None,
                 num_selects: Union[dict, None] = None, 
                 img_size: int = 384,
